@@ -1,0 +1,38 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    background-color: #660708 ;
+}
+.nav-link {
+    color: #E5383B !important;
+    text-decoration: none;
+}
+body {
+    background-image: url("kuvat/Forest\ In\ Fog.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+h1 {
+    color: #BA181B;
+}
+#raw {
+    color: #E5383B ;
+}
+.alaviiva {
+    border-color: #BA181B ;
+}
+.nimi {
+    color: #B1A7A6;
+    font-size: x-large;
+}
+.nimilaatikko {
+    background-color: #660708;
+}
+.tietoalaatikko {
+    background-color: #E5383B ;
+}
+.liquidpedia {
+    background-color: #660708;
+}
