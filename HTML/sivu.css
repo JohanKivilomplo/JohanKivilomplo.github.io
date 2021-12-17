@@ -36,3 +36,40 @@ h1 {
 .liquidpedia {
     background-color: #660708;
 }
+.accordion-button {
+    background-color: #660708 !important; 
+}
+.accordion-body {
+    background-color: #BA181B !important;
+    color: #FFFFFF !important;
+}
+.accordion-item {
+    background-color: black !important;
+    border-bottom: 1px solid black !important;
+}
+.accordion-button:focus {
+    border-color: black !important;
+    box-shadow: none !important;
+}
+.accordion-button {
+    color: #FFFFFF !important;
+}
+.accordion-button:not(.collapsed) {
+    color: #FFFFFF !important;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}  
+.tekstikenttä {
+    color: #FFFFFF;
+}
+.viivat {
+    border-top: 3px solid #BA181B;
+    border-bottom: 3px solid #BA181B;
+}
+button {
+    background-color: #BA181B !important;
+    border-radius: 0% !important;
+    color: #FFFFFF !important;
+}
