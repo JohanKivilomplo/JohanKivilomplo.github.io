@@ -17,8 +17,11 @@ body {
 h1 {
     color: #BA181B;
 }
-#raw {
+h1 > span {
     color: #E5383B ;
+}
+a[target] {
+    background-color: #E5383B;
 }
 .alaviiva {
     border-color: #BA181B ;
@@ -32,9 +35,6 @@ h1 {
 }
 .tietoalaatikko {
     background-color: #E5383B ;
-}
-.liquidpedia {
-    background-color: #660708;
 }
 .accordion-button {
     background-color: #660708 !important; 
