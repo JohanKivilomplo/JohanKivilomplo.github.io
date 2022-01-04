@@ -1,16 +1,19 @@
+$myColor: #E5383B;
+$font-stack: Raleway, sans-serif;
+
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: $font-stack;
 }
 
 nav {
     background-color: #660708 ;
-}
-.nav-link {
-    color: #E5383B !important;
-    text-decoration: none;
+    .nav-link {
+        color: #E5383B !important;
+        text-decoration: none;
+    }
 }
 body {
-    background-image: url("kuvat/Forest\ In\ Fog.jpg");
+    background-image: url("../kuvat/Forest\ In\ Fog.jpg");
     background-repeat: none;
     background-size: cover;
 }
@@ -26,33 +29,40 @@ a[target] {
 .alaviiva {
     border-color: #BA181B ;
 }
-.nimi {
-    color: #B1A7A6;
-    font-size: x-large;
-}
+
 .nimilaatikko {
     background-color: #660708;
+    .nimi {
+        color: #B1A7A6;
+        font-size: x-large;
+    }
+}
+.viivat {
+    border-top: 3px solid #BA181B;
+    border-bottom: 3px solid #BA181B;
+    .tekstikenttä {
+        color: #FFFFFF;
+    }
+}
+.accordion-item {
+    background-color: black !important;
+    border-bottom: 1px solid black !important;
+        .accordion-button {
+            background-color: #660708 !important;
+            color: #FFFFFF !important; 
+        }
 }
 .tietoalaatikko {
     background-color: #E5383B ;
-}
-.accordion-button {
-    background-color: #660708 !important; 
 }
 .accordion-body {
     background-color: #BA181B !important;
     color: #FFFFFF !important;
 }
-.accordion-item {
-    background-color: black !important;
-    border-bottom: 1px solid black !important;
-}
+
 .accordion-button:focus {
     border-color: black !important;
     box-shadow: none !important;
-}
-.accordion-button {
-    color: #FFFFFF !important;
 }
 .accordion-button:not(.collapsed) {
     color: #FFFFFF !important;
@@ -60,13 +70,6 @@ a[target] {
 .accordion-item:last-of-type .accordion-button.collapsed {
     border-bottom-right-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
-}  
-.tekstikenttä {
-    color: #FFFFFF;
-}
-.viivat {
-    border-top: 3px solid #BA181B;
-    border-bottom: 3px solid #BA181B;
 }
 button {
     background-color: #BA181B !important;
