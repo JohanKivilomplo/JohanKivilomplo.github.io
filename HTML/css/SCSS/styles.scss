@@ -8,7 +8,7 @@ $font-stack: Raleway, sans-serif;
 nav {
     background-color: #660708 ;
     .nav-link {
-        color: #E5383B !important;
+        color: $myColor !important;
         text-decoration: none;
     }
 }
@@ -21,10 +21,10 @@ h1 {
     color: #BA181B;
 }
 h1 > span {
-    color: #E5383B ;
+    color: $myColor ;
 }
 a[target] {
-    background-color: #E5383B;
+    background-color: $myColor;
 }
 .alaviiva {
     border-color: #BA181B ;
@@ -53,7 +53,7 @@ a[target] {
         }
 }
 .tietoalaatikko {
-    background-color: #E5383B ;
+    background-color: $myColor ;
 }
 .accordion-body {
     background-color: #BA181B !important;
